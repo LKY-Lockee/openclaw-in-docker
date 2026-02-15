@@ -32,6 +32,12 @@ export OPENCLAW_IMAGE="alpine/openclaw:main"
 ./docker-setup.sh
 ```
 
+This script will:
+
+* pull openclaw gateway image
+* Launch an onboarding wizard
+* Start the gateway via Docker Compose
+* Generate a gateway token and store it in .env
 ---
 
 ## Onboarding screenshots (for beginners)
