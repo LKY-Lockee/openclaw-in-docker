@@ -2,6 +2,15 @@
 
 This guide helps you run OpenClaw quickly and safely with Docker.
 
+## 0) Quick Environment Check
+
+Before You Start, make sure your machine has:
+
+* [Docker installed](https://docs.docker.com/get-started/introduction/get-docker-desktop/)
+* Bash v4+ (For example, MacOS with bash v3 only, you need upgrade with command
+```
+brew install bash
+```
 ## 1) Clone this repository (HTTPS)
 
 Use HTTPS so you don’t need to configure SSH or `git://`.
