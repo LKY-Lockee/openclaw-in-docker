@@ -53,7 +53,8 @@ This script will:
 
 You can use the onboarding screenshots from this blog post:
 
-- https://medium.com/towardsdev/run-openclaw-moltbot-clawdbot-safely-with-docker-a-practical-guide-for-beginners-94112a9b57be
+- [Run OpenClaw (MoltBot, ClawdBot) Safely with Docker: A Practical Guide for Beginners](https://medium.com/p/94112a9b57be)
+- [Running OpenClaw with a Local LLM on a Mac mini (No API Cost)](https://medium.com/p/fb3857f73e0b)
 
 ---
 
