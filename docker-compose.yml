@@ -1,13 +1,4 @@
 services:
-  openclaw-init:
-    build: .
-    image: openclaw-custom
-    user: "0"
-    volumes:
-      - config:/home/node/.openclaw
-      - workspace:/home/node/.openclaw/workspace
-    command: ["chown", "-R", "1000:1000", "/home/node/.openclaw"]
-
   openclaw-gateway:
     build: .
     image: openclaw-custom

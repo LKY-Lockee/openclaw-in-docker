@@ -167,10 +167,6 @@ upsert_env "$ENV_FILE" \
 #   "$ROOT_DIR"
 
 echo ""
-echo "==> Fixing config volume permissions"
-docker compose "${COMPOSE_ARGS[@]}" run --rm openclaw-init
-
-echo ""
 echo "==> Onboarding (interactive)"
 echo "When prompted:"
 echo "  - Gateway bind: lan"
